@@ -32,7 +32,6 @@
 		<property name="dataSource" ref="dataSource" />
 		<property name="annotatedClasses">
 			<list>
-				<!--value>org.test.model.Country</value-->
 				<value>org.test.model.RestrictedWord</value>
 				<value>org.test.model.Username</value>
 			</list>

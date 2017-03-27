@@ -39,11 +39,7 @@
 	    </div>
     </div>
     
-    
-    <c:if test="${empty invalidUser}">
-    	
-		
-		<div class="row" style="margin-top:50px;">
+    <div class="row" style="margin-top:50px;">
     		<div class="col-sm-3">
 		    
 		    </div>
@@ -57,6 +53,9 @@
 		    
 		    </div>
 		</div>
+    
+    
+    <c:if test="${empty invalidUser}">
 		
 		<div class="row" style="margin-top:50px;">
     		<div class="col-sm-3">
